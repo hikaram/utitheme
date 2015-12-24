@@ -50,3 +50,4 @@ License: You must have a valid license purchased only from themeforest (the abov
     <!-- Header END -->
     <!-- Content BEGIN -->
 	<div class="content-wrap">
+		<div class="row">
