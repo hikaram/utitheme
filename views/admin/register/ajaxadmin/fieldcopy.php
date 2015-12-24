@@ -1,0 +1,1 @@
+<?=CHtml::listBox('Fields[copyField]', $defaultValue, Fields::getAllFieldsForObject($objectHash, $fieldId), array('id' => 'fieldTypeCopyText_' . $fieldId, 'size' => 1))?>

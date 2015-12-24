@@ -1,0 +1,99 @@
+div.countryFlag {
+	z-index: 3;
+    cursor: pointer;
+    height: 11px;
+    width: 16px;
+    position: absolute;
+    left: 6px;
+    top: 11px;
+}
+
+div.countryFlagWrapper {
+    cursor: pointer;
+}
+
+div.plusInput {
+	z-index: 3;
+    height: 11px;
+    width: 16px;
+    position: absolute;
+    left: 26px;
+    top: 8px;
+}
+
+div.plusInputNoMask {
+    height: 11px;
+    width: 16px;
+    position: absolute;
+    left: 2px;
+    top: 1.5px;
+}
+
+ul.countriesList {
+    display: none;
+	position: absolute;
+	padding: 0 5px 0 5px;
+	border-radius: 10px;
+	list-style: none outside none;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D8D8D8;	
+	top: 20px;
+	width: 350px;
+	max-height: 300px;
+	overflow: auto;
+	z-index: 10;
+}
+
+li.countryList {
+	clear: left;
+	cursor: pointer;
+	height: 25px;
+	line-height: 1.2;
+}
+
+li.countryList:hover {
+	background-color: #EEEEEE;
+}
+
+span.dataFlag {
+	float: left;
+	height: 11px;
+	margin-left: 5px;
+	margin-top: 7px;
+	width: 16px;
+}
+
+span.dataName {
+	float: left;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+span.dataCode {
+	float: right;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 5px;
+	color: #2266BB;
+}
+
+li.hideCountry {
+	display: none;
+}
+
+.heightBlock {
+	height: 0;
+}
+
+
+.register-arrow-down {
+	z-index: 3;
+    background: url("../img/arrow.png") no-repeat scroll center center / 10px auto #fff;
+    height: 10px;
+    /*left: 115px;*/
+    right: 20px;
+    position: absolute;
+    top: 13px;
+    width: 10px;
+}

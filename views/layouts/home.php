@@ -1,0 +1,1 @@
+<?=$this->renderPartial('//layouts/wide')?>

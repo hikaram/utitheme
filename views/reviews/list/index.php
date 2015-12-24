@@ -1,0 +1,1 @@
+<? $this->widget('ReviewsWidget', array())->getLastReviews(); ?>

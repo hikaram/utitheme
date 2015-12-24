@@ -1,0 +1,20 @@
+/* start TREE */
+.tn-container { display: none; }
+.tn-container.expanded .tnm-children { cursor: pointer; background: url(img/minus.png); }
+.tn-container.collapsed .tnm-children { cursor: pointer; background: url(img/plus.png); }
+.tn-container .tnm-children { cursor: auto; background: url(img/leaf.png); }
+.tn-container .tnm-children.loading { cursor: auto; background: url(img/expand_loading.png); }
+
+.tn-container .tnm-subtree { cursor: pointer; position: relative; width: 20px; height: 20px; background: url(img/subtree.png); }
+.tn-container .tnm-subtree:hover { background: url(img/subtree.png) #dad7d7; }
+.tn-container .tnm-children { width: 20px; height: 20px; margin: 0 0 0 20px;}
+
+.tn-container .tnm-content { overflow: hidden; text-align: left; white-space: nowrap; margin: -20px 0 0 50px; }
+
+.tn-container .tnmst-menu { position: absolute; top: 20px; left: 0; display: none; width: 140px; height: 45px; background: #dad7d7; z-index: 100; text-align: left; padding: 5px; }
+/*.tn-container .tnm-subtree { display: block; visibility: hidden; }*/
+.tn-container .tnm-subtree:hover .tnmst-menu { display: block; }
+/*.tn-container .tcm-sub { display: block; }*/
+.tn-container .tnmst-menu-element { color: #393939; font-size: 11px; height: 20px; margin: 5px; z-index: 5000; }
+.tn-container .tnmst-menu-element:hover { color: #a66c3b; }
+/* end TREE */

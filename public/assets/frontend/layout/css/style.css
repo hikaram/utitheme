@@ -1,0 +1,22 @@
+.fullwidthbaner-container {
+    height: 532px;
+    position: relative;
+}
+.slide-text {
+    color: #fff;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    top: -510px;
+    width: 1000px;
+    z-index: 999999;
+}
+.owl-theme .owl-controls {
+    bottom: 40px;
+    left: 50%;
+    position: absolute;
+    z-index: 9999999;
+}
+.owl-carousel .owl-item {
+    height: 532px;
+}
