@@ -1,12 +1,4 @@
 <!-- BEGIN SLIDER -->
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".slider").owlCarousel({
-			navigation : false,
-			items : 1
-		});
-	});
-</script>
 <div class="fullwidthbaner-container">
 	<div class="slider">
 		<div>
@@ -16,9 +8,9 @@
 				<h2>Ваш путь к здоровой и богатой жизни</h2>
 				<p>Откройте для себя путь к здоровой и богатой жизни! Получите уникальные возможности для создания бизнеса своей мечты, финансового благополучия и независимости, обогащения жизни окружающих Вас людей!</p>
 				<form action="post">
-					<input type="text" value="" />
-					<input type="email" value="" />
-					<input type="submit" value="" />
+					<input type="text" value="Ваше Имя" />
+					<input type="email" value="Ваш Email" />
+					<input type="submit" value="Подписаться на  новости" />
 				</form>
 			</div>
 		</div>

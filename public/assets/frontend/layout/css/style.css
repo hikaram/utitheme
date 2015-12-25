@@ -9,14 +9,62 @@
     position: relative;
     top: -510px;
     width: 1000px;
-    z-index: 999999;
+    z-index: 999999999;
+}
+.slide-text input[type="text"],
+.slide-text input[type="email"]{
+    background: none;
+    border: 1px solid #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 295px;
+}
+.slide-text input[type="submit"] {
+    background: #ffc32b;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 295px;
+    border: none;
+    padding: 10px 0;
 }
 .owl-theme .owl-controls {
     bottom: 40px;
     left: 50%;
     position: absolute;
-    z-index: 9999999;
+    z-index: 99999;
 }
 .owl-carousel .owl-item {
     height: 532px;
+    z-index: 1111;
+}
+#nav li {
+    position: relative;
+    float: left;
+    list-style: none;
+}
+#nav li a {
+    padding: 20px;
+    text-align: center;
+}
+#nav ul.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+#nav li:hover ul.dropdown-menu {
+    display: block;
+}
+#nav li.dropdown ul li {
+    float: none;
 }
